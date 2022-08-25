@@ -1,10 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        var dog = 8;
-        System.out.println(dog);
-        var cat = 3.6;
-        System.out.println(cat);
-        var paper = 763789;
-        System.out.println(paper);
+        var boxerWeight1 = 78.2;
+        var boxerWeight2 = 82.7;
+        var diff = boxerWeight2 - boxerWeight1;
+        System.out.println("разница в весе боксеров" + diff + " кг");
+        var diff2 = boxerWeight2 % boxerWeight1;
+        System.out.println("остаток от деления" + diff2);
+
     }
 }
